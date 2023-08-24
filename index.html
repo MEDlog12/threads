@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Thumbnail Downloader</h1>
+        <form id="thumbnailForm">
+            <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL" required>
+            <button type="submit">Get Thumbnail</button>
+        </form>
+        <div id="thumbnailPreview" class="hidden">
+            <h2>Thumbnail Preview</h2>
+            <img id="thumbnailImage" src="" alt="Thumbnail">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
